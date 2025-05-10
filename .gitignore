@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.*
+
+# Build outputs
+dist/
+build/
+
+# Dependency directories
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+*.out
+*.lock
+*.pid
+*.seed
+*.log
+*.gz
+*.zip
