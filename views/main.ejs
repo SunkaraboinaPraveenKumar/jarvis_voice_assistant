@@ -70,7 +70,7 @@
           textData.textContent = "🗣 "+ recognizedText;
 
           try {
-            await fetch("http://localhost:8000/jarvis/virtualAssistant", {
+            await fetch("https://jarvis-voice-assistant-hhgy.onrender.com/jarvis/virtualAssistant", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json"
